@@ -1,0 +1,154 @@
+body{
+  margin: 0px;
+}
+
+.conatiner-fluid{
+  padding-left:25px;
+  padding-right: 25px;
+}
+
+
+li{
+  font-size: 1.2rem;
+  padding:15px;
+}
+
+.header{
+  background-image: url('../images/header2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+
+.mid{
+  background-color: #DFF6FF;
+}
+.search{
+text-align: left;
+}
+#weather_info{
+  padding-top: 5%;
+  
+}
+
+.searchbox{
+  width:300px;
+  margin-left:190px ;
+  border-color:#0078AA;
+  border-radius: 10px;
+}
+.search-col{
+  margin-left: 415px;
+  padding-right: 0;
+  width:385px;
+}
+.about{
+  background-color: #DFF6FF;
+  text-align:"center";
+  padding-top:5%;
+  font-size:1.5rem;
+  color:#0078AA;
+}
+.navbar-brand{
+  margin-left: 30px;
+}
+.navbar-brand img{
+  border: 2px solid yellow;
+  border-radius: 25px;
+}
+.navbar-nav{
+  margin-right:95px;
+  padding-right: 25px;
+}
+
+.detail-link{
+  text-decoration: none;
+  display: block;
+  margin-left: 25px;
+}
+
+.radar{
+background-color:#0078AA;
+/* padding-bottom: 40%; */
+}
+
+.map-img{
+  padding-top:2%;
+  padding-bottom: 2%;
+  /* float:right; */
+  display: block;
+  margin:auto;
+  margin-right: 140px;
+  width:500px;
+  height: 500px;
+}
+
+h3{
+padding:10px;
+}
+
+h2{
+  padding: 5% 2%;
+  margin-left: 60px;
+  color:white;
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 3.5px;
+}
+     
+#footer{
+  background-color: #DFF6FF;
+  text-align: center;
+
+}
+
+.icon{
+  color:#0078AA;
+  padding:15px 10px 0px;
+}
+
+.Copyright{
+  padding:15px;
+  font-size: 0.85rem;
+  margin-bottom: 0px;
+
+}
+
+.tiny-icons{
+  padding:3% 2%;
+  width:15%;
+  height:15%;
+}
+
+/* #weather-icon{
+  width:30%;
+} */
+
+/* media queries */
+@media (max-width:992px){
+  .search-col{
+    width:100%;
+    margin: auto;
+  }
+
+}
+@media(max-width:1400px){
+  .search-col{
+    width:100%;
+  }
+  .weather_info{
+    text-align: center;
+    width:80%;
+  }
+  .row{
+    justify-content: center;
+  }
+  .container{
+    margin-left: 70px;
+  }
+
+  .map-img{
+    display:block;
+    margin: auto;
+  }
+}
